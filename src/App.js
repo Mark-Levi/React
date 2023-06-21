@@ -1,20 +1,13 @@
-import './App.css';
-import Header from './Header/Header';
-import Test from './Test';
+// import './App.css';
+import React from 'react';
 
-const headerData = {
-  site_name: 'my text site name',
-  nav: [
-    { link: 'nav1', text: 'my link' },
-    { link: 'nav2', text: 'my link 2' },
-    { link: 'nav3', text: 'my link 3' },
-  ],
-};
+import Test2 from './Test2';
+import Test1 from './Test1';
 function App() {
   return (
     <>
-      <Header data={headerData} />
-      <Test />
+      {/* <Test2 arg={77} /> */}
+      <Test1 arg={77} />
     </>
   );
 }
